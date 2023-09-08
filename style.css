@@ -118,20 +118,30 @@ body{
     color: rgb(58, 54, 54);
 }
 .location-bar{
-    min-width: 20vh;
+    min-width: 15vh;
+    max-width:60vh;
 }
 .search-bar{
     min-width: 3vh;
     max-width: 80vh;
 }
-
+.search-bar input{
+    border: none;
+    font-size: 14px;
+    min-width: 40vh;
+    color: rgb(62, 59, 59);
+    letter-spacing: .9px;
+    max-width: 110vw;
+    padding: 0 0 5px 10px ;
+}
 .location-bar input{
     border: none;
     font-size: 14px;
     color: rgb(62, 59, 59);
     letter-spacing: .9px;
-    max-width: 15vw;
-    padding: 0 0 5px 10px ;
+    max-width: 12vw;
+    min-width: 3vh;
+    padding: 0 0 5px 6px ;
 }
 .search-icon{
     color: rgb(153, 151, 156);
@@ -145,15 +155,7 @@ span{
     min-width: 60vh;
     overflow: hidden;
 }
-.search-bar input{
-    border: none;
-    font-size: 14px;
-    min-width: 52vh;
-    color: rgb(62, 59, 59);
-    letter-spacing: .9px;
-    max-width: 110vw;
-    padding: 0 0 5px 10px ;
-}
+
 .navbar-brand{
     display: flex;
     align-items: center;
